@@ -1,31 +1,13 @@
 {
-    "name": "sandeshsays/sms",
-    "description": "SparrowSMS client for laravel",
+    "name": "sandesh/sms",
+    "description": "send sms via sparrowsms",
     "license": "MIT",
-    "authors": [{
-        "name": "Sandesh Maharjan",
-        "email": "sandeshsays@gmail.com",
-        "homepage": "http://sandeshmaharjan.info.np"
-    }],
-    "require": {
-        "php": "^7.1"
-    },
-    "require-dev": {
-        "laravel/framework": "^5.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sandeshsays\\SMS\\": "src/"
-        },
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Sandeshsays\\SMS\\SMSServiceProvider"
-                ],
-                "aliases": {
-                    "SMS": "Sandeshsays\\SMS\\SMSFacade"
-                }
-            }
+    "authors": [
+        {
+            "name": "Sandesh Maharjan",
+            "email": "sandeshsays@gmail.com"
         }
-    }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
