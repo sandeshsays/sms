@@ -1,13 +1,16 @@
 {
-    "name": "sandesh/sms",
+    "name": "sandeshsays/sms",
     "description": "send sms via sparrowsms",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Sandesh Maharjan",
-            "email": "sandeshsays@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Sandesh Maharjan",
+        "email": "sandeshsays@gmail.com"
+    }],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "sandeshsays\\sms\\": "src/"
+        }
+    }
 }
