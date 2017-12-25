@@ -1,0 +1,33 @@
+{
+    "name": "sandeshsays/sms",
+    "description": "SparrowSMS client for laravel",
+    "license": "MIT",
+    "authors": [{
+        "name": "Sandesh Maharjan",
+        "email": "sandeshsays@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sandeshsays\\SMS\\": "src/"
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Sandeshsays\\SMS\\SMSServiceProvider"
+                ],
+                "aliases": {
+                    "SMS": "Sandeshsays\\SMS\\SMSFacade"
+                }
+            }
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "sandeshsays\\SMS\\Test\\": "tests/"
+        }
+    }
+}
